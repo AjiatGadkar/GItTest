@@ -11,7 +11,7 @@ namespace GitTestDemo.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
+            string row = "This is my row data";
             return View();
         }
 
