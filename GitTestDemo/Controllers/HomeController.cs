@@ -12,6 +12,7 @@ namespace GitTestDemo.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             string row = "This is my row data";
+             string onlineupdate = "This data changes by online";
             return View();
         }
 
